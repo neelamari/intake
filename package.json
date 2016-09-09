@@ -1,0 +1,21 @@
+{
+  "name": "intake",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "async": "2.0.x",
+    "body-parser": "1.15.x",
+    "cfenv": "1.0.x",
+    "express": "4.13.x",
+    "lodash": "4.15.x",
+    "mongoose": "4.5.x",
+    "request": "2.74.x"
+  },
+  "repository": {},
+  "engines": {
+    "node": "4.x"
+  }
+}
