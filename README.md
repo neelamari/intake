@@ -4,9 +4,13 @@ This example shows A REST API CRUD Operation to a Compose MongoDB Service - wihh
 
 # Creating the compose Mongodb service
 Visit the app.compose.io site and create an account.
+
 Create a MongoDB deployment.
+
 Provide a deployment name and the name of the desired deployment zone. 
+
 Create a Database
+
 Create users credentials 
 
 # Adding the service in Bluemix
