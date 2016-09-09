@@ -19,17 +19,21 @@ Add the MongoDB Service by Compose in your Bluemix console.
 
 # Deployment
 --set endpoint and login
+
 bluemix api https://api.ng.bluemix.net
 
 --login
+
 bluemix login -u <your userid> 
 
 --set orgs and spaces
+
 cf target -o <your organization>
 cf target -s <your space>
 
 --deploying application.
-modify the manifest.yml with the  name you used for MongoDB Service
+
+Modify the manifest file with the service name you used
 
 cf push 
 
@@ -37,5 +41,7 @@ cf push
 cf restage 
 
 # Checking logs 
+
+Use cf logs commnd line to view any console output you use in code for troubleshootig. 
 
 cf logs intake 
